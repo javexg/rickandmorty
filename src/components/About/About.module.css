@@ -1,0 +1,8 @@
+.aboutWeb {
+    
+    background-color: aquamarine;
+    width:fit-content; 
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.3);
+}

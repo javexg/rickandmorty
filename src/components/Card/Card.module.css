@@ -1,0 +1,33 @@
+
+.container{
+    background-color: #448178;
+    width:auto; 
+    height: auto;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.container h3 {
+    margin: 6px;
+    color:#eeeeee;
+}
+
+.closeButton{
+    width: fit-content;
+    height: fit-content; 
+    border: 0px;
+    border-radius: 30px;
+    background-color: #eeeeee;
+    transition: 0.5s;
+    
+}
+
+.closeButton:hover{
+    color:white;
+    background-color: rgb(202, 37, 37);
+}
+

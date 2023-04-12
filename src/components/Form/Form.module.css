@@ -1,0 +1,39 @@
+
+.formCaja{
+    position: absolute; /* establece la posición del formulario */
+    top: 50%; /* centra el formulario verticalmente */
+    left: 50%; /* centra el formulario horizontalmente */
+    transform: translate(-50%, -50%);
+    background-color: rgb(45, 110, 89);
+    padding: 20px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.formCaja input {
+    display: block;
+    padding: 10px;
+    border: 0px;
+}
+
+.formCaja label {
+    border: 0px;
+    display: block;
+    padding: 10px;
+}
+
+.formCaja button {
+    align-items: center;
+    margin: 20px;
+
+    border: 0px;
+    border-radius: 15px;
+    padding: 12px;
+    transition: 0.5s;
+}
+
+.formCaja button:hover{
+    color:white;
+    background-color: rgb(85, 125, 211);
+}
