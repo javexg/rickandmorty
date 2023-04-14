@@ -1,15 +1,14 @@
 
 .container{
-    background-color: #448178;
-    width:auto; 
-    height: auto;
-    padding: 10px;
+    background-color: hsla(162, 67%, 36%, 0.95);
+    
+    max-width: 100%;
+    padding: 5px;
     border-radius: 12px;
     box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.3);
-    display: flex;
-    flex-direction: column;
     margin: 12px;
-}
+    
+    }
 
 .container h3 {
     margin: 6px;
@@ -17,17 +16,53 @@
 }
 
 .closeButton{
-    width: fit-content;
-    height: fit-content; 
+    margin-left: 120px;
+
+
+    cursor: pointer;
+    border-radius: 50%;    
     border: 0px;
-    border-radius: 30px;
     background-color: #eeeeee;
-    transition: 0.5s;
-    
+    transition: 0.5s;    
 }
 
 .closeButton:hover{
     color:white;
     background-color: rgb(202, 37, 37);
 }
+
+.likeButton{
+    margin-right: 120px;
+
+    background-color: transparent;
+    border: 0px;
+    /* color: #000; */
+    cursor: pointer;
+
+    transition: 0.5s;    
+}
+
+.likeButton:hover{
+    color:white;
+    transform: scale(1.45);
+}
+
+.dislikeButton{
+
+    margin-right: 120px;
+
+    background-color: transparent;
+    border: 0px;
+    /* color: #000; */
+    cursor: pointer;
+    transition: 0.5s;     
+}
+
+.dislikeButton:hover{
+    color:white;
+    transform: scale(1.45);  
+}
+
+
+
 

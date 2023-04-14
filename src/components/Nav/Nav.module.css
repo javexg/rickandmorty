@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     width: 15;
-    background-color: rgb(68, 63, 114);
+    background-color: rgba(25, 54, 83, 0.950);
     padding: 12px;
 }
 
@@ -34,7 +34,7 @@
 
 .bar button:hover{
     color:white;
-    background-color: rgb(85, 125, 211);
+    background-color: hsla(162, 67%, 36%, 0.95);
 }
 
 

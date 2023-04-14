@@ -10,9 +10,14 @@ const Nav = ({onSearch}) => { // acá llega la prop y hago destructuring
                 <Link to='/home'>HOME</Link>
             </button>
 
+            <button>
+            <Link to='/favorites'>FAVORITES</Link>
+            </button>
+
             <button className={style.about} >
                 <Link to='/about'>ABOUT</Link>    
             </button>
+
 
             
             <SearchBar onSearch={onSearch} />
