@@ -5,8 +5,8 @@
     overflow-x: auto;
     flex-wrap: wrap;
     
-    display: flex;
-    flex-direction:row;
+    /* display: flex;
+    flex-direction:row; */
     /* justify-content:space-between; */
     margin: 80px;
     background-color: rgba(25, 54, 83, 0.850);
@@ -14,5 +14,16 @@
     border-radius: 15px;
     margin-top: 10px;
 
+}
 
+.conteinerFavs select {
+    background-color: rgba(148, 211, 211, 0.815);
+    padding: 10px;   
+    margin-bottom: auto;
+    transition: 0.5s;
+
+}
+
+.conteinerFavs select:hover{
+    color:white;
 }

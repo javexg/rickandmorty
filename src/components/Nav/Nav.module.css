@@ -4,6 +4,8 @@
     padding: 12px;
     margin: 10px;
 
+    text-decoration: none
+
 }
 
 .about{
@@ -12,6 +14,7 @@
     border-radius: 15px;
     padding: 12px;
     margin: 10px;
+
 
 }
 
@@ -22,6 +25,7 @@
     width: 15;
     background-color: rgba(25, 54, 83, 0.950);
     padding: 12px;
+    text-decoration: none
 }
 
 .bar button {

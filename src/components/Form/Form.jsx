@@ -33,15 +33,20 @@ const Form = ({login}) => {
 
     return(
         <form onSubmit={handleSubmit} className={style.formCaja} >
-            <label htmlFor="email">Email: </label>
-            <input type="text" name='email' value={userData.email} onChange={handleChange}/>
-            {errors.email && <p style={{color:"red", fontSize:"11pt"}}>{errors.email}</p>}
-            <label htmlFor="password">Password: </label>
-            <input type="password" name='password' value={userData.password} onChange={handleChange}/>
-            {errors.password && <p style={{color:"red", fontSize:"11pt"}}>{errors.password}</p>}
 
+            <h2>Welcome!</h2>
 
-            <button>Submit</button>
+            <input className={style.inputUser} type="text" name='email' placeholder='Email: admin@admin.com' value={userData.email} onChange={handleChange}/>
+            {errors.email && <p className={style.pUser}>{errors.email}</p>}
+            
+            <input className={style.inputClave} type="password" placeholder='Clave: admin123' name='password' value={userData.password} onChange={handleChange}/>
+            {errors.password && <p className={style.pClave}>{errors.password}</p>}
+
+            <br />
+            <button>Ingresar</button>
+
+            <img className={style.image} src="https://cdna.artstation.com/p/assets/images/images/031/538/850/original/petro-kosariekov-portal-gun-rick-and-morty2-2.gif?1603902186" alt="" />
+
         </form>
     )
 }

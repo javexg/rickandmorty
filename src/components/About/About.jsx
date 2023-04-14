@@ -4,7 +4,8 @@ import style from './About.module.css'
 const About = () => {
     return(
         <div className={style.aboutWeb}>
-            <h1>Work in progress...</h1>
+            <img src="https://media.tenor.com/3hIpHNbcVf4AAAAC/rick-and-morty-rick.gif" alt="" />
+            <h2>Henry / FT-37A / 2023 ©  </h2>
         </div>
     )
 }
