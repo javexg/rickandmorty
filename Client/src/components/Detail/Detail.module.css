@@ -1,0 +1,19 @@
+.detail {
+    background-color: rgba(25, 54, 83, 0.808);
+    color: aliceblue;
+    width:fit-content; 
+    height: fit-content;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.3);
+
+    position: absolute; /* establece la posición del formulario */
+    top: 50%; /* centra el formulario verticalmente */
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.detail img{
+    border-radius: 50%;
+}

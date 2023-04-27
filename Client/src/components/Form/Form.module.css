@@ -1,0 +1,119 @@
+
+
+.formCaja{
+
+    width: 320px;
+    max-width: 320px;
+    height: 300px;
+    max-height: 300px;
+
+    position: absolute; /* establece la posición del formulario */
+    top: 40%; /* centra el formulario verticalmente */
+    left: 50%; /* centra el formulario horizontalmente */
+    transform: translate(-50%, -50%);
+    background-color: hsla(0, 0%, 0%, 0);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.inputUser {
+    
+    position: absolute;
+    left: 20px;
+    top: 35%;
+
+    padding: 8px;
+    border-radius: auto;
+    border: none;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 100%;
+    max-width: 300px
+}
+
+.inputClave {
+    
+    position: absolute;
+    left: 20px;
+    top: 60%;
+
+    padding: 8px;
+    border-radius: auto;
+    border: none;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 100%;
+    max-width: 300px
+}
+
+
+
+.formCaja button {   
+
+    position: absolute;
+    left: 140px;
+    top: 90%;
+
+    background-color: #ffffffd0;
+    border: none;
+    color: rgba(0, 0, 0, 0.651);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.formCaja button:hover{
+    color: white;
+    background-color: rgb(80, 104, 211);
+    transform: scale(1.10);
+}
+
+.pUser{
+
+    position: absolute;
+    left: 20px;
+    top: 45%;
+
+    color: rgba(44, 182, 236, 0.904);
+    font-size: 10pt;
+    font-style: bold;
+    text-shadow: 1px 1px 2px rgba(41, 41, 41, 0.7);
+  
+}
+
+.pClave{
+
+    position: absolute;
+    left: 20px;
+    top: 70%;
+
+    color: rgba(44, 182, 236, 0.904);
+    font-size: 10pt;
+    font-style: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  
+}
+
+.image{
+    background: url(https://cdna.artstation.com/p/assets/images/images/031/538/850/original/petro-kosariekov-portal-gun-rick-and-morty2-2.gif?1603902186);
+    border-radius: 50%;
+    box-shadow: 0 0 50px 70px rgba(0, 0, 0, 0.9);
+    position: absolute; 
+    z-index: -1;
+    top: 0%; 
+    left: -30px;
+
+
+}

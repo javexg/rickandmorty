@@ -1,0 +1,11 @@
+.App {
+   text-align: center;
+}
+
+body {
+   background-image: url('./assets/images/background2.jpg');
+   background-size: 350px;
+   background-repeat: repeat;
+   background-attachment: fixed
+ };
+

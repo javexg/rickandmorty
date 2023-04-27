@@ -1,0 +1,17 @@
+
+.conteinerCards {
+
+    justify-content: center;
+    max-width: calc(6 * (250px + auto)); /* donde 300px es el ancho de cada tarjeta y 10px es el margen entre tarjetas */
+    overflow-x: auto;
+    flex-wrap: wrap;
+    
+    display: flex;
+    flex-direction:row;
+    /* justify-content:space-between; */
+    margin: 80px;
+    background-color: rgba(25, 54, 83, 0.850);
+    padding: 2em;
+    border-radius: 15px;
+    margin-top: 10px;
+} 
